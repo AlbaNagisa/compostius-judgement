@@ -1,13 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
   return (
     <div className="flex flex-col w-full h-screen items-center justify-center">
-        <span className="pb-8">
-          Le jugement de <span style={{ color: "#4CAF50" }}>Compostius</span>
-        </span>
-        
-        <span className="text-5xl font-bold">Purifie ton karma</span>
+      <span className="text-5xl font-bold">Purifie ton karma</span>
 
       <div className="flex flex-row items-center justify-center font-[Inter]">
         <div className="flex flex-col items-center justify-center w-[35%]">
@@ -31,9 +28,11 @@ export default function Page() {
       <div>
         <span>Prêt à tester ton karma alimentaire ?</span>
       </div>
-      
+
       <button className="bg-[#4CAF50] text-white font-bold py-2 px-4 rounded mt-8 shadow-[0_0_25px_#4CAF50] hover:shadow-[0_0_20px_#4CAF50] transition-shadow duration-300">
-        COMMENCER LE TEST
+        <Link href="/quizz/1">
+          COMMENCER LE TEST
+        </Link>
       </button>
     </div>
   );
