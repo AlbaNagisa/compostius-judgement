@@ -55,7 +55,7 @@ const Page = () => {
   if (!description) {
     return (
       <div className="flex flex-col items-center justify-center h-screen">
-        <p className="text-lg">Loading...</p>
+        <p className="text-lg">Chargement...</p>
       </div>
     );
   }
@@ -74,10 +74,9 @@ const Page = () => {
         <p className={"font-bold text-2xl"}>{scoreGrade}</p>
         <p>{description}</p>
         <div className={"flex flex-col gap-2"}>
-          <p className={"mt-10"}>Recommencer</p>
           <div
             style={{ boxShadow: "0px 4px 35px 0px #4CAF50" }}
-            className="bg-[#4CAF50] w-fit p-2 cursor-pointer"
+            className="mt-10 bg-[#4CAF50] w-fit p-2 cursor-pointer"
             onClick={() => router.push("/")}
           >
             Recommencer
