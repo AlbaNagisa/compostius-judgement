@@ -43,24 +43,42 @@ export default function QuizzPage() {
     };
 
 
-    if (loading) return <p>Chargement…</p>;
-    if (!quizz || !quizz.question) return <p>Quizz introuvable</p>;
+    if (loading) return <div className="min-h-screen flex flex-col items-center justify-center text-white p-4">
+        <div className="text-center max-w-xl text-2xl">Chargement…</div></div>;
+    if (!quizz || !quizz.question) return <div className="min-h-screen flex flex-col items-center justify-center text-white p-4">
+        <div className="text-center max-w-xl text-2xl">Quizz introuvable</div></div>;
 
     return (
         <div className="min-h-screen flex flex-col items-center justify-center text-white p-4">
             <div className="text-center max-w-xl">
-                <p className="mb-6 font-bold uppercase">{quizz.question}</p>
+                <p className="mb-6 font-bold uppercase h-[60px]>">{id}/{allQuizz.length} - {quizz.question}</p>
 
-                {Object.entries(quizz.options).map(([option, _score], index) => (
-                    <button
-                        key={index}
-                        onClick={() => handleAnswer(_score as number)}
+                {[...Array(4)].map((_, index) => {
+                    const optionEntries = Object.entries(quizz.options);
+                    const entry = optionEntries[index];
 
-                        className="block w-full border border-white rounded-md p-4 my-2 hover:bg-green-800 transition-colors"
-                    >
-                        {String.fromCharCode(65 + index)}. {option}
-                    </button>
-                ))}
+                    if (entry) {
+                        const [option, score] = entry;
+                        return (
+                            <button
+                                key={index}
+                                onClick={() => handleAnswer(score as number)}
+                                className="block w-full border border-white rounded-md p-4 my-2 hover:bg-green-800 transition-colors"
+                            >
+                                {String.fromCharCode(65 + index)}. {option}
+                            </button>
+                        );
+                    } else {
+                        return (
+                            <div
+                                key={index}
+                                className="invisible w-full border rounded-md p-4 my-2 opacity-30 pointer-events-none"
+                            >
+                            </div>
+                        );
+                    }
+                })}
+
             </div>
         </div>
     );
