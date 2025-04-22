@@ -1,332 +1,37 @@
 [
-    {
-        "id": 1,
-        "question": "As-tu déjà jeté un déchet par terre volontairement ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 0,
-            "non": 3
-        }
-    },
-    {
-        "id": 2,
-        "question": "Combien de fois utilises-tu un sac plastique à usage unique par semaine ?",
-        "type": "multiple_choice",
-        "options": {
-            "Jamais": 5,
-            "1 à 3 fois": 2,
-            "Plus de 3 fois": 0
-        }
-    },
-    {
-        "id": 3,
-        "question": "Manges-tu de la viande ?",
-        "type": "multiple_choice",
-        "options": {
-            "Jamais": 5,
-            "Occasionnellement (1-2 fois/semaine)": 3,
-            "Souvent (3 fois ou +/semaine)": 1,
-            "Tous les jours": 0
-        }
-    },
-    {
-        "id": 4,
-        "question": "Tri-tu régulièrement tes déchets ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 4,
-            "non": 0
-        }
-    },
-    {
-        "id": 5,
-        "question": "Prends-tu souvent l'avion ?",
-        "type": "multiple_choice",
-        "options": {
-            "Jamais": 5,
-            "Moins d’une fois par an": 3,
-            "1 à 3 fois par an": 1,
-            "Plus de 3 fois par an": 0
-        }
-    },
-    {
-        "id": 6,
-        "question": "As-tu déjà laissé couler l’eau inutilement pendant plus d’une minute ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 0,
-            "non": 3
-        }
-    },
-    {
-        "id": 7,
-        "question": "Utilises-tu des cosmétiques ou produits ménagers faits maison ou naturels ?",
-        "type": "multiple_choice",
-        "options": {
-            "Toujours": 4,
-            "Parfois": 2,
-            "Jamais": 0
-        }
-    },
-    {
-        "id": 8,
-        "question": "Combien de temps durent tes douches en moyenne ?",
-        "type": "multiple_choice",
-        "options": {
-            "Moins de 5 min": 4,
-            "5 à 10 min": 2,
-            "Plus de 10 min": 0
-        }
-    },
-    {
-        "id": 9,
-        "question": "Utilises-tu une gourde plutôt que des bouteilles en plastique ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 4,
-            "non": 0
-        }
-    },
-    {
-        "id": 10,
-        "question": "Fais-tu du compost chez toi ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 11,
-        "question": "Quel est ton mode de transport principal ?",
-        "type": "multiple_choice",
-        "options": {
-            "Marche / Vélo": 5,
-            "Transports en commun": 3,
-            "Voiture électrique": 2,
-            "Voiture thermique": 0
-        }
-    },
-    {
-        "id": 12,
-        "question": "As-tu déjà participé à un ramassage de déchets ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 13,
-        "question": "Achètes-tu local et/ou bio régulièrement ?",
-        "type": "multiple_choice",
-        "options": {
-            "Toujours": 4,
-            "Parfois": 2,
-            "Rarement": 0
-        }
-    },
-    {
-        "id": 14,
-        "question": "As-tu déjà gaspillé de la nourriture en la jetant non consommée ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 0,
-            "non": 3
-        }
-    },
-    {
-        "id": 15,
-        "question": "As-tu des plantes ou un jardin potager chez toi ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 16,
-        "question": "Es-tu déjà allé·e dans une friperie ou magasin de seconde main ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 17,
-        "question": "As-tu déjà réparé un objet cassé au lieu de le jeter ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 4,
-            "non": 0
-        }
-    },
-    {
-        "id": 18,
-        "question": "Éteins-tu les lumières quand tu quittes une pièce ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 2,
-            "non": 0
-        }
-    },
-    {
-        "id": 19,
-        "question": "As-tu un fournisseur d’énergie verte ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 20,
-        "question": "T'arrives-t-il de jeter des vêtements encore utilisables ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 0,
-            "non": 3
-        }
-    },
-    {
-        "id": 21,
-        "question": "Combien de vêtements neufs achètes-tu par mois ?",
-        "type": "multiple_choice",
-        "options": {
-            "Aucun": 5,
-            "1 à 2": 3,
-            "3 à 5": 1,
-            "Plus de 5": 0
-        }
-    },
-    {
-        "id": 22,
-        "question": "Pratiques-tu le zéro déchet ?",
-        "type": "multiple_choice",
-        "options": {
-            "Oui activement": 4,
-            "J’essaie un peu": 2,
-            "Pas du tout": 0
-        }
-    },
-    {
-        "id": 23,
-        "question": "T’arrive-t-il de consommer en livraison à domicile (Uber Eats, etc.) ?",
-        "type": "multiple_choice",
-        "options": {
-            "Jamais": 5,
-            "Occasionnellement": 2,
-            "Régulièrement": 0
-        }
-    },
-    {
-        "id": 24,
-        "question": "Utilises-tu des piles rechargeables ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 25,
-        "question": "Ton téléphone a-t-il plus de 2 ans ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 26,
-        "question": "Réduis-tu l’usage du papier (factures, impressions, etc.) ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 27,
-        "question": "As-tu déjà participé à une action pour l’environnement (manif, pétition, etc.) ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 2,
-            "non": 0
-        }
-    },
-    {
-        "id": 28,
-        "question": "Réutilises-tu des bocaux ou contenants ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 29,
-        "question": "Consommes-tu des produits avec beaucoup d'emballage plastique ?",
-        "type": "multiple_choice",
-        "options": {
-            "Non, j’évite": 4,
-            "Parfois": 2,
-            "Souvent": 0
-        }
-    },
-    {
-        "id": 30,
-        "question": "As-tu déjà fait un écogeste au bureau ou à l’école ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 2,
-            "non": 0
-        }
-    },
-    {
-        "id": 31,
-        "question": "As-tu déjà parlé d’écologie à ton entourage pour les sensibiliser ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 32,
-        "question": "Est-ce que tu laisses tes appareils en veille la nuit ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 0,
-            "non": 2
-        }
-    },
-    {
-        "id": 33,
-        "question": "Achètes-tu des produits d’occasion (électroménager, meubles...) ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 3,
-            "non": 0
-        }
-    },
-    {
-        "id": 34,
-        "question": "As-tu déjà jeté une pile usagée à la poubelle ordinaire ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 0,
-            "non": 3
-        }
-    },
-    {
-        "id": 35,
-        "question": "As-tu déjà utilisé un moteur de recherche éthique (comme Ecosia) ?",
-        "type": "yes_no",
-        "options": {
-            "oui": 2,
-            "non": 0
-        }
-    }
-]
+    { "id": 1, "question": "As-tu déjà jeté de la nourriture encore consommable ?", "type": "yes_no", "options": { "oui": 0, "non": 3 } },
+    { "id": 2, "question": "Combien de fois jettes-tu des restes de repas par semaine ?", "type": "multiple_choice", "options": { "Jamais": 5, "1 à 3 fois": 2, "Plus de 3 fois": 0 } },
+    { "id": 3, "question": "Achètes-tu souvent plus de nourriture que nécessaire ?", "type": "multiple_choice", "options": { "Jamais": 5, "Parfois": 3, "Souvent": 1, "Toujours": 0 } },
+    { "id": 4, "question": "Fais-tu attention aux dates de péremption ?", "type": "yes_no", "options": { "oui": 4, "non": 0 } },
+    { "id": 5, "question": "Planifies-tu tes repas pour éviter le gaspillage ?", "type": "multiple_choice", "options": { "Toujours": 5, "Souvent": 3, "Rarement": 1, "Jamais": 0 } },
+    { "id": 6, "question": "As-tu déjà congelé des aliments pour ne pas les jeter ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 7, "question": "Utilises-tu des restes pour cuisiner de nouveaux plats ?", "type": "multiple_choice", "options": { "Toujours": 4, "Parfois": 2, "Jamais": 0 } },
+    { "id": 8, "question": "Achètes-tu des produits proches de la date limite pour éviter qu’ils soient gaspillés ?", "type": "multiple_choice", "options": { "Souvent": 4, "Parfois": 2, "Jamais": 0 } },
+    { "id": 9, "question": "T’arrive-t-il de jeter du pain dur ?", "type": "multiple_choice", "options": { "Jamais": 4, "Parfois": 2, "Souvent": 0 } },
+    { "id": 10, "question": "Compostes-tu tes déchets alimentaires ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 11, "question": "Connais-tu des recettes pour éviter de gaspiller des aliments ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 12, "question": "As-tu déjà utilisé des applications anti-gaspi (ex: Too Good To Go) ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 13, "question": "Fais-tu attention à ne pas cuisiner plus que nécessaire ?", "type": "multiple_choice", "options": { "Toujours": 4, "Parfois": 2, "Jamais": 0 } },
+    { "id": 14, "question": "Achètes-tu en vrac pour limiter le gaspillage ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 15, "question": "As-tu déjà redistribué des aliments que tu ne consommeras pas ?", "type": "yes_no", "options": { "oui": 4, "non": 0 } },
+    { "id": 16, "question": "As-tu déjà donné des restes à des animaux (ex: pain sec aux canards) ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 17, "question": "Ranges-tu les aliments avec les dates proches à l’avant dans ton frigo ?", "type": "yes_no", "options": { "oui": 4, "non": 0 } },
+    { "id": 18, "question": "Achètes-tu des fruits ou légumes moches ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 19, "question": "Lis-tu les étiquettes pour comprendre la différence entre DLC et DDM ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 20, "question": "Fais-tu des listes de courses pour éviter les achats inutiles ?", "type": "multiple_choice", "options": { "Toujours": 4, "Parfois": 2, "Jamais": 0 } },
+    { "id": 21, "question": "Fais-tu attention à la conservation des aliments (frigo, placard, etc.) ?", "type": "yes_no", "options": { "oui": 4, "non": 0 } },
+    { "id": 22, "question": "Es-tu capable de cuisiner avec ce que tu as sous la main ?", "type": "yes_no", "options": { "oui": 4, "non": 0 } },
+    { "id": 23, "question": "As-tu déjà participé à un atelier ou formation sur le gaspillage alimentaire ?", "type": "yes_no", "options": { "oui": 5, "non": 0 } },
+    { "id": 24, "question": "Connais-tu des astuces anti-gaspi à la maison ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 25, "question": "As-tu déjà essayé de conserver des épluchures pour en faire du bouillon ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 26, "question": "Fais-tu régulièrement le tri dans ton frigo pour éviter le gaspillage ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 27, "question": "Achètes-tu des produits à la coupe ou en petites portions ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 28, "question": "As-tu déjà cuisiné des plats à base de restes (pain perdu, gratin, etc.) ?", "type": "yes_no", "options": { "oui": 4, "non": 0 } },
+    { "id": 29, "question": "T’arrive-t-il d’oublier des aliments au fond de ton frigo ?", "type": "multiple_choice", "options": { "Jamais": 4, "Parfois": 2, "Souvent": 0 } },
+    { "id": 30, "question": "Préfères-tu acheter en petite quantité plus souvent pour éviter le gaspillage ?", "type": "yes_no", "options": { "oui": 4, "non": 0 } },
+    { "id": 31, "question": "T’arrive-t-il de partager ou échanger de la nourriture avec des proches ?", "type": "yes_no", "options": { "oui": 3, "non": 0 } },
+    { "id": 32, "question": "As-tu déjà observé beaucoup de gaspillage dans un restaurant ou à la cantine ?", "type": "yes_no", "options": { "oui": 0, "non": 3 } },
+    { "id": 33, "question": "Mets-tu des restes dans une boîte pour les manger plus tard ?", "type": "yes_no", "options": { "oui": 4, "non": 0 } },
+    { "id": 34, "question": "T’arrive-t-il de cuisiner de trop grandes quantités ?", "type": "multiple_choice", "options": { "Jamais": 4, "Parfois": 2, "Souvent": 0 } },
+    { "id": 35, "question": "Selon toi, lutter contre le gaspillage alimentaire est-il important ?", "type": "multiple_choice", "options": { "Oui, très important": 5, "Oui, un peu": 3, "Pas vraiment": 0 } }
+  ]
