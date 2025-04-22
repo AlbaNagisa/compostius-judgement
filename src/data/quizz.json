@@ -1,23 +1,23 @@
-[
-  {
-    "id": 1,
-    "question": "As-tu déjà jeté de la nourriture encore consommable ?",
-    "type": "yes_no",
-    "options": {
-      "oui": 0,
-      "non": 3
-    }
-  },
-  {
-    "id": 2,
-    "question": "Combien de fois jettes-tu des restes de repas par semaine ?",
-    "type": "multiple_choice",
-    "options": {
-      "Jamais": 5,
-      "1 à 3 fois": 2,
-      "Plus de 3 fois": 0
-    }
-  },
+  [
+    {
+      "id": 1,
+      "question": "As-tu déjà jeté de la nourriture encore consommable ?",
+      "type": "yes_no",
+      "options": {
+        "oui": 0,
+        "non": 3
+      }
+    },
+    {
+      "id": 2,
+      "question": "Combien de fois jettes-tu des restes de repas par semaine ?",
+      "type": "multiple_choice",
+      "options": {
+        "Jamais": 5,
+        "1 à 3 fois": 2,
+        "Plus de 3 fois": 0
+      }
+    },
   {
     "id": 3,
     "question": "Achètes-tu souvent plus de nourriture que nécessaire ?",
