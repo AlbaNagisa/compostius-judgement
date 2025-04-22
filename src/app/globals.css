@@ -4,18 +4,37 @@
   --background: #1E1E1E;
   --foreground: #ffffff;
   font-family: 'Cinzel', serif;
+  --text-happy: #4CAF50;
+  --text-smile: #AFA54C;
+  --text-sad: #AF874C;
+  --text-very-sad: #AF4C4C;
 
 }
+
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Cinzel', serif;
+}
+
+/*ca ma gonflé j'ai pas reussi a le faire avec tailwind donc j'ai fais comme ca sorry*/
+
+.text-happy {
+  color: var(--text-happy);
+}
+
+.text-smile {
+  color: var(--text-smile);
+}
+.text-sad {
+  color: var(--text-sad);
+}
+.text-very-sad {
+  color: var(--text-very-sad);
 }
