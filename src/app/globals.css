@@ -3,7 +3,6 @@
 :root {
   --background: #1E1E1E;
   --foreground: #ffffff;
-  font-family: 'Cinzel', serif;
   --text-happy: #4CAF50;
   --text-smile: #AFA54C;
   --text-sad: #AF874C;
@@ -20,7 +19,6 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Cinzel', serif;
 }
 
 /*ca ma gonflé j'ai pas reussi a le faire avec tailwind donc j'ai fais comme ca sorry*/

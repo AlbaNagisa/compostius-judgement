@@ -3,13 +3,20 @@
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
+type Quizz = {
+  question: string;
+  options: {
+    [key: string]: number;
+  };
+};
+
 export default function QuizzPage() {
   const router = useRouter();
   const params = useParams();
 
   const id = Array.isArray(params.id) ? params.id[0] : params.id;
-  const [quizz, setQuizz] = useState<any>(null);
-  const [allQuizz, setAllQuizz] = useState<any[]>([]);
+  const [quizz, setQuizz] = useState<null | Quizz>(null);
+  const [allQuizz, setAllQuizz] = useState<Quizz[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
